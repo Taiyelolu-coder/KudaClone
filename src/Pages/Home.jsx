@@ -20,6 +20,10 @@ import Briefcase from "../assets/briefcase.jpg"
 import Send from "../assets/send.jpg"
 import Pouch from "../assets/pouch.jpg"
 import Table from "../Components/Table";
+import BlogPost from "../Components/BlogPost";
+import JoinKuda from "../Components/JoinKuda";
+import Kuda from "../Components/Kuda";
+import Copyright from "../Components/Copyright";
 
 const Home = () => {
 
@@ -43,6 +47,8 @@ const Home = () => {
        <Sponsors />
        <Partners />
        <Table />
+       <BlogPost/>
+       
        <MoreCardSection>
         
         <h1>More for you</h1>
@@ -52,6 +58,9 @@ const Home = () => {
        <MoreCards image={Pouch} heading="Loans" text="Get up to ₦150,000 in your Kuda account easily and repay in convenient instalments." />
        </MoreCard>
        </MoreCardSection>
+       <JoinKuda/>
+       <Kuda />
+       <Copyright />
       </Container>
     )
   }
